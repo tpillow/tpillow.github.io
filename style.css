@@ -47,6 +47,7 @@ nav {
 
 nav a {
     margin: 0 1rem;
+    display: inline-block;
 }
 
 main {
