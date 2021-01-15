@@ -1,10 +1,3 @@
-/*
-White BG: #F3FCF0
-Black FG: #1F271B
-Link: #FC440F
-Highlight: #79ADDC
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +11,7 @@ html {
 
 body {
     font-size: 12pt;
-    background-color: #F3FCF0;
+    background-color: #F5F5F5;
 }
 
 a, a:visited {
@@ -72,6 +65,7 @@ article {
     border: 0 solid #1F271B;
     box-shadow: -1rem 1rem 1.5rem -0.5rem #1F271B;
     border-radius: 8px;
+    background-color: #F5F5F5;
 }
 
 article h2 {
@@ -94,4 +88,9 @@ article h2 {
     font-size: 0.9rem;
     display: inline;
     font-weight: 600;
+}
+
+.placed-one {
+    color: #00E500;
+    text-decoration: underline;
 }
